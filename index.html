@@ -1,97 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="icon" class="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
-	<title>Art's Sol</title>
-</head>
-<script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Art's Sol</title>
+  </head>
+  <script>
     let data=new Date();
     let dia=data.getDate();
     let mes=data.getMonth()+1;
     let ano=data.getFullYear();
-</script>
-<body>
-    <div>
-        <img class="selo"  src="./img/Art's Sol.png" height="70px" width="100px">
-    </div>
-    <img class="mondura_D"  src="./img/mondura_D.png" >
-    <img class="mondura_E"  src="./img/mondura_E.png" >
-    <div id="box">
-        <nav class="menu">
-            <ul>
-                <li class="Santuario"><a href="santurario.html">Santuário</a></li>
-                <li class="Mdf"><a href="mdf.html">Mdf</a></li>
-                <li class="Personalizado"><a href="personalizado.html">Personalizado</a></li>
-                <li class="Vidro"><a href="vidro.html">Vidro</a></li>
-                <div class="Whatsapp">Whatsapp: Solange:</div>
-                <div id="Contato">(11) 97451-6031</div>
-            </ul>
-        </nav>
-    </div>
+  </script>
+  <style type="text/css">
 
+    .main
+    {
+      margin: 2%;
+    }
+    
+    .card
+    {
+      position: relative;
+      top: 50px;
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+    }
+    
+    .image img
+    {
+      width: 100%;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    
+    .title
+    {
+      text-align: center;
+      padding: 10px;
+    }
+    
+    h1
+    {
+      font-size: 20px;
+    }
+    
+    .des
+    {
+      padding: 3px;
+      text-align: center;
+      padding-top: 10px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    button
+    {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding:10px;
+    }
+
+    button:hover
+    {
+      background-color: black;
+      color: white;
+      transition: .5s;
+      cursor: pointer;
+    }
+
+  </style>
+  <body>
+    <nav>
+      <img class="logo"  src="./img/Art's Sol.png">
+      <ul>
+        <li><a  class="active"  href="./santurario.html">Santuario</a></li>
+        <li><a  class="active"  href="./mdf.html">Mdf</a></li>
+        <li><a  class="active" href="./personalizado.html">Personalizado</a></li>
+        <li><a  class="active" href="./vidro.html">Vidro</a></li>
+        <li><a  class="contato" style="cursor:default; font-size: 21pt;" href="#">Whatsapp: Solange:(11) 97451-6031</a></li>
+      </ul>
+    </nav>
     <marquee  behavior="scroll" class="aviso">🎨 Artesanato em Mdf / Vidro     📦 Enviamos para todo Brasil - 📝 Aceitamos Encomendas Personalizadas</marquee>
- 
-    <div class="cards_D">
-        <div class="row">
-            <div class="col-sm-6">
-                <img class="card-img-top" width="190px"height="190px" src="./img/santuario.jpeg">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">SANTUÁRIO</h5>
-                  <p class="card-text">Feito em Mdf e Personalizado</p>
-                </div>
-              </div>
-            </div>
-            <br>
-            <div class="col-sm-6">
-              <img class="card-img-top" width="190px"height="190px" src="./img/mdf.jpeg"> 
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">MDF</h5>
-                  <p class="card-text">Feito em Mdf</p>
-                </div>
-              </div>
-            </div>
+    <div class="main">
+     
+      <div class="card">
+        <div class="image">
+          <img src="./img/santuario.jpeg" width="160px"height="228px">
         </div>
-    </div>
-    <div class="cards_E">
-        <div class="row">
-            <div class="col-sm-6">
-                <img class="card-img-top" width="190px"height="190px" src="./img/personalizado.jpeg">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">PERSPNALIZADO</h5>
-                  <p class="card-text">Personalizados Mdf</p>
-                </div>
-              </div>
-            </div>
-            <br>
-            <div class="col-sm-6">
-              <img class="card-img-top" width="190px"height="190px" src="./img/vidro.jpeg"> 
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">VIDRO</h5>
-                  <p class="card-text">Vidros Personalizados</p>
-                </div>
-              </div>
-            </div>
+        <div class="title"></div>
+        <div class="des">
+          <h4 class="card-title">SANTUÁRIO</h4>
+          <p class="card-text">Feito em Mdf e Personalizado</p>
         </div>
+      </div>
+  
+      <div class="card">
+     
+        <div class="image">
+          <img src="./img/mdf.jpeg" width="160px"height="228px">
+        </div>
+        <div class="title"></div>
+        <div class="des">
+          <h4 class="card-title">MDF</h4>
+          <p class="card-text">Feito em Mdf</p>    
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+          <img src="./img/personalizado.jpeg" width="160px"height="228px">
+        </div>
+        <div class="title"></div>
+        <div class="des">
+          <h4 class="card-title">PERSPNALIZADO</h4>
+          <p class="card-text">Personalizados Mdf</p>      
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image">
+           <img src="./img/vidro.jpeg" width="160px"height="228px">
+        </div>
+        <div class="title"></div>
+        <div class="des">
+          <h4 class="card-title">VIDRO</h4>
+          <p class="card-text">Vidros Personalizados</p>
+        </div>
+      </div>
     </div>
-   
-    <center>
-        <footer class="rodape"></footer>
-        <div id="texto">
+     
+     
+     
+     
+     
+     
+        
+    <div class="box" style="background-color: #CFB53B; width: 100%; height:65px">
+        <center>
+          <p>
             <h1>© Art's Sol 2019  -  <script>document.write( ano + "<br>");</script></h1>
             <h2>Todos os Direitos Reservados</h2>
             <h3>Desenvolvido por Lorrans Facca.</h3>
-        </div>
-    </center>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-</body>
+          </p>
+        </center>
+      </div>
+  </body>
 </html>
