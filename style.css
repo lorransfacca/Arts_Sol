@@ -9,13 +9,13 @@
 
 body /*Tamanho Original*/
 {
-    background-color: white; /*green*/
+    background-color: white; /*green - white*/
 }
 
 @media screen and (max-width: 768px)/*Tablet*/
 {
     body{
-        background-color: white;   /*blue*/ 
+        background-color: white;   /*blue - white*/
     }
     .contato
     {
@@ -48,7 +48,7 @@ body /*Tamanho Original*/
 @media screen and (max-width: 600px)/*Mobile*/
 {
     body{
-        background-color: white; /*red*/
+        background-color: white; /*red - white*/
     }
     .contato
     {
