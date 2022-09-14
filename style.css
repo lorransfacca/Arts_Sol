@@ -9,20 +9,31 @@
 
 body /*Tamanho Original*/
 {
-    background-color: white; /*green - white*/
+    background-color: white; /*green*/
 }
 
 @media screen and (max-width: 768px)/*Tablet*/
 {
     body{
-        background-color: white;   /*blue - white*/
+        background-color: blue;   /*blue*/ 
     }
+
+    .active
+    {
+        font-family: 'Tangerine', serif;
+        color: #CFB53B;
+        font-size: 30pt;
+        position: relative;
+        right: 200px;
+        top: 115px;
+    }
+
     .contato
     {
         position: absolute;
         font-size: 20pt;
         right: 50px;
-        top: -10px;
+        top: -15px;
     }
 
     .cards_D
@@ -41,6 +52,47 @@ body /*Tamanho Original*/
         height: 26rem;
     }
 
+    .card
+    {
+      position: relative;
+      top: 50px;
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+    }
+    
+    .image img
+    {
+      height: 200px;
+      width: 150px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    .des
+    {
+        padding: 3px;
+        text-align: center;
+        padding-top: 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .card-title
+    {
+        color: #CFB53B;
+        font-size: 15px; 
+    }
+
+    .card-text
+    {
+        color: #474A51;
+        font-size: 15px;
+    }
+
+
    
     
 }
@@ -48,14 +100,26 @@ body /*Tamanho Original*/
 @media screen and (max-width: 600px)/*Mobile*/
 {
     body{
-        background-color: white; /*red - white*/
+        background-color: red; /*red*/
     }
+
+    
+    .active
+    {
+        font-family: 'Tangerine', serif;
+        color: #CFB53B;
+        font-size: 30pt;
+        position: absolute;
+        left: -20px;
+        top: 115px;
+    }
+
     .contato
     {
         position: absolute;
         font-size: 20pt;
         right: 50px;
-        top: -10px;
+        top: -15px;
     }
 
     
@@ -75,42 +139,81 @@ body /*Tamanho Original*/
         height: 26rem;
     }
 
+    .card
+    {
+      position: relative;
+      top: 50px;
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 2%;
+    }
+    
+    .image img
+    {
+      width: 150px;
+      height: 100px;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    .des
+    {
+        padding: 3px;
+        text-align: center;
+        padding-top: 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .card-title
+    {
+        color: #CFB53B;
+        font-size: 12px; 
+    }
+
+    .card-text
+    {
+        color: #474A51;
+        font-size: 14px;
+    }
 
 }
 
 nav
 {
-    background-color:#DCDCDC;
-    height: 70px;
+    background-color:#D3D3D3;
+    height: 100px;
     width: 100%;
 }
 
 img.logo
 {
-    background-color:#DCDCDC;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 60px;
     font-weight: bold;
-    height: 70px;
+    height: 100px;
+    position: absolute;
 }
+
 
 nav ul
 {
     float: right;
-    margin-right: 20px;
+    
 }
 
 nav ul li
 {
    display: inline-block;
-   line-height: 80px;
-   margin: 0 5px;
+   line-height: 80px;  
 }
 
 nav ul li a
 { 
     color: white;
-    padding: 7px 13px;
+    padding: 7px 10px;
 }
 
 a
@@ -198,7 +301,7 @@ h3
     font-size: 20px;
     text-shadow: 4px 4px 4px #aaa;
     position: absolute;
-    top: 70px;
+    top: 100px;
 }
 
 .active
@@ -206,6 +309,8 @@ h3
     font-family: 'Tangerine', serif;
     color: #CFB53B;
     font-size: 30pt;
+    position: relative;
+    right: 200px;
 }
 
 .contato
@@ -214,7 +319,6 @@ h3
     color: #CFB53B;
     font-size: 20pt;
 }
-
 
 h4
 {
