@@ -68,7 +68,7 @@ body /*Tamanho Original*/
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
     }
-    
+
 }
 
 @media screen and (max-width: 600px)/*Mobile*/
@@ -173,6 +173,12 @@ nav ul li a
 { 
     color: white;
     padding: 7px 10px;
+}
+
+.main
+{
+    position: relative;
+    top: 30px;
 }
 
 a
