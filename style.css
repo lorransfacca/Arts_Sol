@@ -127,6 +127,12 @@ body /*Tamanho Original*/
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
     }
+
+    .main
+    {
+        position: relative;
+        top: 100px;
+    }
 }
 
 nav
@@ -151,7 +157,6 @@ img.logo
     position: absolute;
     left: 0px;
 }
-
 
 nav ul
 {
@@ -270,4 +275,16 @@ h3
 {
     font-family: 'Tangerine', serif;
     color: #CFB53B;
+}
+
+h4
+{
+    color: #CFB53B;
+    font-size: 20px; 
+}
+
+p
+{
+    color: #474A51;
+    font-size: 18px;
 }
