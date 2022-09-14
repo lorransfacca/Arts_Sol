@@ -70,30 +70,6 @@ body /*Tamanho Original*/
       border-top-right-radius: 5px;
       border-top-left-radius: 5px;
     }
-
-    .des
-    {
-        padding: 3px;
-        text-align: center;
-        padding-top: 10px;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-    }
-
-    .card-title
-    {
-        color: #CFB53B;
-        font-size: 15px; 
-    }
-
-    .card-text
-    {
-        color: #474A51;
-        font-size: 15px;
-    }
-
-
-   
     
 }
 
@@ -108,9 +84,9 @@ body /*Tamanho Original*/
     {
         font-family: 'Tangerine', serif;
         color: #CFB53B;
-        font-size: 30pt;
+        font-size: 18px;
         position: absolute;
-        left: -20px;
+        left: -15px;
         top: 115px;
     }
 
@@ -118,7 +94,7 @@ body /*Tamanho Original*/
     {
         position: absolute;
         font-size: 20pt;
-        right: 50px;
+        right: 90px;
         top: -15px;
     }
 
@@ -167,18 +143,6 @@ body /*Tamanho Original*/
         border-bottom-left-radius: 5px;
     }
 
-    .card-title
-    {
-        color: #CFB53B;
-        font-size: 12px; 
-    }
-
-    .card-text
-    {
-        color: #474A51;
-        font-size: 14px;
-    }
-
 }
 
 nav
@@ -195,6 +159,13 @@ img.logo
     font-weight: bold;
     height: 100px;
     position: absolute;
+    right: 0px;
+}
+
+.logo
+{
+    position: absolute;
+    left: 0px;
 }
 
 
@@ -269,7 +240,6 @@ a:active{
     height: 26rem;
 
 }
-
 
 .box
 {
