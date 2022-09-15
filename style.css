@@ -136,8 +136,8 @@ body /*Tamanho Original*/
 
     .main
     {
-        position: relative;
-        top: 70px; /*50px*/
+        position: absolute;
+        top: 200px; /*80px*/
     }
 }
 
